@@ -10,7 +10,7 @@ namespace Anchorpoint.Logger
     public static class AnchorpointLogger
     {
         /// Global toggle to enable or disable logging throughout the Anchorpoint plugin.
-        public static bool EnableLogging = true; // You can toggle this based on environment
+        public static bool EnableLogging = false; // You can toggle this based on environment
 
         /// Logs a standard debug message to the Unity console with contextual source information.
         public static void Log(string message,
